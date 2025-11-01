@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e8ba3 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ body {
 }
 
 .nav-btn {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     color: white;
     border: none;
     width: 45px;
@@ -58,7 +58,7 @@ body {
 
 .nav-btn:hover {
     transform: scale(1.1);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(30, 60, 114, 0.4);
 }
 
 .nav-btn:active {
@@ -118,7 +118,7 @@ body {
 .main-title {
     font-size: 72px;
     font-weight: 700;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #006233 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -140,7 +140,7 @@ body {
 }
 
 .feature-badge {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     color: white;
     padding: 12px 30px;
     border-radius: 30px;
@@ -165,7 +165,7 @@ body {
     left: 0;
     width: 100px;
     height: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #006233 100%);
     border-radius: 2px;
 }
 
@@ -203,7 +203,7 @@ body {
 }
 
 .description-box {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     color: white;
     padding: 30px;
     border-radius: 15px;
@@ -242,7 +242,7 @@ body {
     content: '✓';
     position: absolute;
     left: 0;
-    color: #667eea;
+    color: #1e3c72;
     font-weight: 700;
     font-size: 18px;
 }
@@ -264,9 +264,9 @@ body {
 }
 
 .tech-card:hover {
-    border-color: #667eea;
+    border-color: #1e3c72;
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+    box-shadow: 0 10px 30px rgba(30, 60, 114, 0.2);
 }
 
 .tech-icon {
@@ -329,7 +329,7 @@ body {
 }
 
 .spec span {
-    color: #667eea;
+    color: #1e3c72;
     font-weight: 600;
     font-size: 16px;
 }
@@ -343,7 +343,7 @@ body {
 
 .highlight-item {
     background: white;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #006233;
     padding: 25px;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -357,7 +357,7 @@ body {
 .highlight-number {
     font-size: 14px;
     font-weight: 700;
-    color: #667eea;
+    color: #006233;
     margin-bottom: 10px;
 }
 
@@ -399,7 +399,7 @@ body {
 }
 
 .stat {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     padding: 30px;
     border-radius: 15px;
     color: white;
