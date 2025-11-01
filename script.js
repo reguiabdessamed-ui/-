@@ -1,6 +1,6 @@
 // Presentation Navigation Script
 let currentSlide = 1;
-const totalSlides = 7;
+const totalSlides = 9;
 
 // Get elements
 const slides = document.querySelectorAll('.slide');
